@@ -1,0 +1,34 @@
+.select{
+    position:relative;
+    top:10px;
+    left:84%;
+    padding: 0.5em;
+}
+.Bitcoin {
+    background-image: url('https://image.ibb.co/c2qhZw/bitcoin.png');
+}
+.Ethereum{
+    background-image: url('https://image.ibb.co/bzF5nG/ethereum.png');
+}
+.Ripple{
+    background-image: url('https://image.ibb.co/gn8Egb/ripple.png');
+}
+
+.imageContainer {
+    position: relative;
+    top:25px;
+    left:0;
+    width: 100%;
+    height: 364px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (max-width: 412px) {
+    .select{
+        position:relative;
+        top:10px;
+        left:69%;
+        padding: 0.5em;
+    }
+}
