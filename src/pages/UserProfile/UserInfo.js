@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../../assets/images/faces/chai.JPG';
+import profileImage from '../../assets/images/faces/face-3.jpg';
 const UserInfo = () => (
   <div className="card card-user">
     <div className="image">
@@ -7,18 +7,19 @@ const UserInfo = () => (
     </div>
     <div className="content">
       <div className="author">
-        
-          <img className="avatar border-gray" src={profileImage} width="150" alt="chaitanya" />
+        <a href="#">
+          <img className="avatar border-gray" src={profileImage} alt="Mike Andrew" />
 
           <h4 className="title">
-            Chaitanya<br />
-            <small></small>
+            Mike Andrew<br />
+            <small>michael24</small>
           </h4>
-        
+        </a>
       </div>
       <p className="description text-center">
-         <br />
-       
+        "Lamborghini Mercy <br />
+        Your chick she so thirsty <br />
+        I'm in that two seat Lambo"
       </p>
     </div>
     <hr />

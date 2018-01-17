@@ -2,6 +2,7 @@ import React from 'react';
 import EmailChart from './EmailChart';
 import SalesChart from './SalesChart';
 import UserBehaviorChart from './UserBehaviorChart';
+import TimeSeriesChart from '../Charts/timeSeries';
 import Tasks from './Tasks';
 import CurrencyStatistic from './currencyChart';
 
@@ -19,6 +20,7 @@ const Dashboard = () => (
       <div className="row">
         <div className="col-md-6">
           <UserBehaviorChart />
+          <TimeSeriesChart/>
         </div>
         <div className="col-md-6">
           <Tasks />

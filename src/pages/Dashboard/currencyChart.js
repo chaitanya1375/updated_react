@@ -1,5 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import BitcoinChart from '../Charts/bitcoinChart';
+import EtherChart from '../Charts/EtherChart';
+import RippleChart from '../Charts/RippleChart';
 import '../../assets/styles/currency-chart.css';
 
 class CurrencyStatistic extends React.Component {
@@ -9,7 +12,9 @@ class CurrencyStatistic extends React.Component {
     }
 
     render(){
-        let dynamicClass = this.props.selectedCurrency.id;
+        let dynamicComponent = this.props.selectedCurrency.id === 'Bitcoin' ? <BitcoinChart/>
+                           :this.props.selectedCurrency.id === 'Ethereum' ? <EtherChart/>
+                           :<RippleChart/>;
         return (
             <div className="card">
                 <select className='select' value={this.props.selectedCurrency.id}
@@ -18,7 +23,7 @@ class CurrencyStatistic extends React.Component {
                     <option value="Ethereum">Ethereum</option>
                     <option value="Ripple">Ripple</option>
                 </select>
-                <div className={`imageContainer ${dynamicClass}`} />
+                <div>{dynamicComponent}</div>
             </div>
         );
     }

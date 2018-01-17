@@ -17,7 +17,7 @@ const ProfileForm = () => (
           <div className="col-md-3">
             <div className="form-group">
               <label>Username</label>
-              <input type="text" className="form-control" placeholder="Username" defaultValue="" />
+              <input type="text" className="form-control" placeholder="Username" defaultValue="michael23" />
             </div>
           </div>
           <div className="col-md-4">
@@ -32,13 +32,13 @@ const ProfileForm = () => (
           <div className="col-md-6">
             <div className="form-group">
               <label>First Name</label>
-              <input type="text" className="form-control" placeholder="Company" defaultValue="" />
+              <input type="text" className="form-control" placeholder="Company" defaultValue="Mike" />
             </div>
           </div>
           <div className="col-md-6">
             <div className="form-group">
               <label>Last Name</label>
-              <input type="text" className="form-control" placeholder="Last Name" defaultValue="" />
+              <input type="text" className="form-control" placeholder="Last Name" defaultValue="Andrew" />
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ const ProfileForm = () => (
           <div className="col-md-12">
             <div className="form-group">
               <label>Address</label>
-              <input type="text" className="form-control" placeholder="Home Address" defaultValue="" />
+              <input type="text" className="form-control" placeholder="Home Address" defaultValue="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09" />
             </div>
           </div>
         </div>
@@ -56,13 +56,13 @@ const ProfileForm = () => (
           <div className="col-md-4">
             <div className="form-group">
               <label>City</label>
-              <input type="text" className="form-control" placeholder="City" defaultValue="" />
+              <input type="text" className="form-control" placeholder="City" defaultValue="Mike" />
             </div>
           </div>
           <div className="col-md-4">
             <div className="form-group">
               <label>Country</label>
-              <input type="text" className="form-control" placeholder="Country" defaultValue="" />
+              <input type="text" className="form-control" placeholder="Country" defaultValue="Andrew" />
             </div>
           </div>
           <div className="col-md-4">
@@ -77,7 +77,7 @@ const ProfileForm = () => (
           <div className="col-md-12">
             <div className="form-group">
               <label>About Me</label>
-              <textarea rows="5" className="form-control" placeholder="Here can be your description" defaultValue="" />
+              <textarea rows="5" className="form-control" placeholder="Here can be your description" defaultValue="Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo." />
             </div>
           </div>
         </div>

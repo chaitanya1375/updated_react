@@ -37,7 +37,7 @@ const Main = ({
         <div className="main-panel">
           <Header />
           <Route exact path="/" component={Dashboard} />
-          <Route path="/editprofile" component={UserProfile} />
+          <Route path="/profile" component={UserProfile} />
           <Route path="/charts" component={Charts} />
           <Footer />
         </div>
